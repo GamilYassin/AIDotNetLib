@@ -1,0 +1,179 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3FB22650-65CA-4CEB-81F2-FCD07C45D012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{5AA635BA-CF3C-4B6F-824E-AC4DA9D199BC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommonLib", "CommonLib\CommonLib.vbproj", "{4B759EC3-75AD-47D5-B000-2073707549AB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Perceptron", "Perceptron\Perceptron.vbproj", "{55F2761E-D405-42D3-99F7-9087178B4CBC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LinearRegression", "LinearRegression\LinearRegression.vbproj", "{0B569BAC-743E-4FE4-890A-9FDA8C9F3296}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FeedForwardANN", "FeedForwardANN\FeedForwardANN.vbproj", "{8CE27B25-4CB2-4059-B8D0-5F53732707BE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LinearRegressionUI", "LinearRegressionUI\LinearRegressionUI.vbproj", "{72F57346-EE7A-4B05-A7BA-ADA6748AD190}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PerceptronUI", "PerceptronUI\PerceptronUI.vbproj", "{F1988C43-97F1-4925-908F-6019CD88894B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestGUI", "TestGUI\TestGUI.vbproj", "{BB3182F8-BB33-41BC-B131-383E523BA344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refrences", "Refrences", "{9341B622-48A7-4DC3-B5C6-809D5D005621}"
+	ProjectSection(SolutionItems) = preProject
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.DirectSound.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.DirectSound.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.DirectSound.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.DirectSound.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.DirectSound.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.DirectSound.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audio.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audition.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audition.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audition.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audition.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audition.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Audition.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Audio.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Audio.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Audio.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Audio.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Audio.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Audio.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Controls.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Controls.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Imaging.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Imaging.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Controls.Imaging.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Controls.Imaging.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Imaging.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Imaging.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Imaging.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Imaging.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Vision.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Vision.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Controls.Vision.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Controls.Vision.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Vision.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Vision.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Vision.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.Vision.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Controls.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.DataSets.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.DataSets.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.DataSets.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.DataSets.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.DataSets.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.DataSets.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.DebuggerVisualizers.GPL.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.DebuggerVisualizers.GPL.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.dll.config = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.dll.config
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Fuzzy.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Fuzzy.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Fuzzy.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Fuzzy.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Fuzzy.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Fuzzy.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Genetic.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Genetic.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Genetic.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Genetic.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Genetic.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Genetic.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Imaging.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Imaging.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Imaging.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Imaging.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Imaging.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Imaging.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Imaging.Noncommercial.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Imaging.Noncommercial.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Imaging.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Imaging.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Imaging.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Imaging.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.IO.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.IO.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.IO.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.IO.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.IO.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.IO.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.MachineLearning.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.MachineLearning.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.MachineLearning.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.MachineLearning.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.MachineLearning.GPL.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.MachineLearning.GPL.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.MachineLearning.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.MachineLearning.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.MachineLearning.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.MachineLearning.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.Core.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.Core.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Math.Core.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Math.Core.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.Core.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.Core.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.Core.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.Core.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Math.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Math.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Math.Noncommercial.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Math.Noncommercial.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Math.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Neuro.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Neuro.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Neuro.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Neuro.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Neuro.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Neuro.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Statistics.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Statistics.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Statistics.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Statistics.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Statistics.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Noncommercial\Accord.Statistics.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Statistics.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Statistics.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Statistics.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Statistics.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Text.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Text.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Text.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Text.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Text.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Text.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.DirectShow.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.DirectShow.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.DirectShow.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.DirectShow.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.DirectShow.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.DirectShow.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Video.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Video.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Video.FFMPEG.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Video.FFMPEG.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Video.FFMPEG.x64.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Video.FFMPEG.x64.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Kinect.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Kinect.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Kinect.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Kinect.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Kinect.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Kinect.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.VFW.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.VFW.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.VFW.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.VFW.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.VFW.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.VFW.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Ximea.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Ximea.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Ximea.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Ximea.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Ximea.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.Ximea.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Video.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Vision.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Vision.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Vision.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Accord.Vision.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Vision.pdb = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Vision.pdb
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Vision.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.Vision.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.XML = ..\Accord.NET-3.7.0-libsonly\Release\net46\Accord.XML
+		..\Accord.NET-3.7.0-libsonly\Release\net46\ICSharpCode.SharpZipLib.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\ICSharpCode.SharpZipLib.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Microsoft.VisualStudio.DebuggerVisualizers.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\Microsoft.VisualStudio.DebuggerVisualizers.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\ZedGraph.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\GPL\ZedGraph.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\ZedGraph.dll = ..\Accord.NET-3.7.0-libsonly\Release\net46\ZedGraph.dll
+		..\Accord.NET-3.7.0-libsonly\Release\net46\ZedGraph.xml = ..\Accord.NET-3.7.0-libsonly\Release\net46\ZedGraph.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B759EC3-75AD-47D5-B000-2073707549AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B759EC3-75AD-47D5-B000-2073707549AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B759EC3-75AD-47D5-B000-2073707549AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B759EC3-75AD-47D5-B000-2073707549AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F2761E-D405-42D3-99F7-9087178B4CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F2761E-D405-42D3-99F7-9087178B4CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F2761E-D405-42D3-99F7-9087178B4CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F2761E-D405-42D3-99F7-9087178B4CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B569BAC-743E-4FE4-890A-9FDA8C9F3296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B569BAC-743E-4FE4-890A-9FDA8C9F3296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B569BAC-743E-4FE4-890A-9FDA8C9F3296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B569BAC-743E-4FE4-890A-9FDA8C9F3296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE27B25-4CB2-4059-B8D0-5F53732707BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE27B25-4CB2-4059-B8D0-5F53732707BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE27B25-4CB2-4059-B8D0-5F53732707BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE27B25-4CB2-4059-B8D0-5F53732707BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F57346-EE7A-4B05-A7BA-ADA6748AD190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F57346-EE7A-4B05-A7BA-ADA6748AD190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F57346-EE7A-4B05-A7BA-ADA6748AD190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F57346-EE7A-4B05-A7BA-ADA6748AD190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1988C43-97F1-4925-908F-6019CD88894B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1988C43-97F1-4925-908F-6019CD88894B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1988C43-97F1-4925-908F-6019CD88894B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1988C43-97F1-4925-908F-6019CD88894B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3182F8-BB33-41BC-B131-383E523BA344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3182F8-BB33-41BC-B131-383E523BA344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3182F8-BB33-41BC-B131-383E523BA344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3182F8-BB33-41BC-B131-383E523BA344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B759EC3-75AD-47D5-B000-2073707549AB} = {3FB22650-65CA-4CEB-81F2-FCD07C45D012}
+		{55F2761E-D405-42D3-99F7-9087178B4CBC} = {3FB22650-65CA-4CEB-81F2-FCD07C45D012}
+		{0B569BAC-743E-4FE4-890A-9FDA8C9F3296} = {3FB22650-65CA-4CEB-81F2-FCD07C45D012}
+		{8CE27B25-4CB2-4059-B8D0-5F53732707BE} = {3FB22650-65CA-4CEB-81F2-FCD07C45D012}
+		{72F57346-EE7A-4B05-A7BA-ADA6748AD190} = {5AA635BA-CF3C-4B6F-824E-AC4DA9D199BC}
+		{F1988C43-97F1-4925-908F-6019CD88894B} = {5AA635BA-CF3C-4B6F-824E-AC4DA9D199BC}
+		{BB3182F8-BB33-41BC-B131-383E523BA344} = {5AA635BA-CF3C-4B6F-824E-AC4DA9D199BC}
+		{9341B622-48A7-4DC3-B5C6-809D5D005621} = {3FB22650-65CA-4CEB-81F2-FCD07C45D012}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6806D5D-06EC-428E-B363-3B24D414C763}
+	EndGlobalSection
+EndGlobal
