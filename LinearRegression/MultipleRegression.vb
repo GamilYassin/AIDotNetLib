@@ -16,4 +16,6 @@ Namespace LinearRegression
             Return Result.Solve(Labels_Matrix)
         End Function
     End Class
+
+
 End Namespace
